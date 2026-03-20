@@ -11,10 +11,10 @@ const rl = readline.createInterface({
     rl.question('Enter Science marks: ', (science) => {
         science = Number(science);
 
-    rl.question('Enter Maths marks: ', (maths) => {
-        maths = Number(maths);    
+    rl.question('Enter Maths marks: ', (hindi) => {
+        hindi = Number(hindi);    
 
-    const total = english + science + maths;
+    const total = english + science + hindi;
     const percentage = (total / 300) * 100;
 
     console.log(`Total Marks: ${total}`);
